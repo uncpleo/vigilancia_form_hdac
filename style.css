@@ -81,3 +81,28 @@
     padding: 10px;
     background-color: rgb(219, 247, 65);
 }
+
+.botones{
+    margin-left: 30px;
+    justify-content: end;
+}
+
+.otroBoton{
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(44, 125, 247);
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(109, 163, 243);
+}
+
+.otroBoton1{
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(240, 66, 54);
+    border-radius: 10px 10px 10px 10px;
+    border-color: rgb(240, 66, 54);
+}

@@ -230,52 +230,196 @@
                 </div>
                 <!-- Tercer Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
-                    <div class="row">
-                        <h6>DATOS DEL ESTABLECIMIENTO</h6>
-                        <div class="col-6">
-                            <label for="datosEstablecimiento" class="form-label">RED/DISA/DIRESA/GERESA</label>
-                            <input type="text" class="form-control" id="datosEstablecimiento" placeholder="---------------">
+                    <h6>III. ANTECEDENTES</h6>
+                    <div class="row sm-1">
+                        <div class="col-4">
+                            <label for="" class="form-label">1. Problemas Périnatales</label>
                         </div>
-                        <div class="col-6">
-                            <label for="estSalud" class="form-label">Establecimiento de Salud</label>
-                            <input type="text" class="form-control" id="estSalud" placeholder="Escriba el Establecimiento de Salud">
+                        <div class="row sm-1">
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxbajo" id="checkboxbajo">
+                                <label for="checkboxbajo">Bajo de Peso al nacer</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxasfixia" id="checkboxasfixia">
+                                <label for="checkboxasfixia">Asfixia severa</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxprematuridad" id="checkboxprematuridad">
+                                <label for="checkboxprematuridad">Prematuridad</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxinfeccion" id="checkboxinfeccion">
+                                <label for="checkboxinfeccion">Infeccion</label>
+                            </div>
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxcaida" id="checkboxcaida">
+                                <label for="checkboxcaida">Caída brusca</label>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <label for="nivAtencion" class="form-label">Nivel de atención</label>
-                            <input type="text" class="form-control" id="nivAtencion" placeholder="Escriba el Nivel de atención">
+                    <!--Desde aqui va el bloque III-2.
+                    <div class="row mb-1">-->
+    
+                    <div class="col-12">
+                        <label for="" class="form-label">2. Antecedente familiar con trastornos psiquiatrícos o problemas
+                            psicosociales</label><br>
+                    </div>
+    
+                    <div class="row mb-1">
+                        <div class="col-2">
+                            <input type="radio" name="decision" id="si">
+                            <label for="si">Si</label>
                         </div>
-                        <div class="col-6">
-                            <label for="fechaAtencion" class="form-label">Fecha de atención</label>
-                            <input type="date" class="form-control" id="fechaAtencion" placeholder="Escriba el Establecimiento de Salud">
+                        <div class="col-2">
+                            <input type="radio" name="decision" id="no">
+                            <label for="no">No</label>
+                        </div>
+                        <div class="col-8">
+                            <div class="row mb-1">
+                                <div class="col-2">
+                                    <label for="antecedente" class="form-label">Especifique:</label>
+                                </div>
+                                <div class="col-6">
+                                    <input type="text" class="form-control" id="antecedente"
+                                        placeholder="Escriba su antecedente">
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    <!--Desde aqui va el bloque III-3.-->
+                    <div class="row mb-1">
+                        <div class="col-12">
+                            <label for="" class="form-label">3. Tipo de violencia</label><br>
+                        </div>
+                        <div class="row mb-1"></div>
+                        <div class="col-2">
+                            <input type="checkbox" name="checkboxninguna" id="checkboxninguna">
+                            <label for="checkboxninguna">Ninguna</label>
+                        </div>
+                        <div class="col-2">
+                            <input type="checkbox" name="checkboxfisico" id="checkboxfisico">
+                            <label for="checkboxfisico">Fisico</label>
+                        </div>
+                        <div class="col-2">
+                            <input type="checkbox" name="checkboxsexual" id="checkboxsexual">
+                            <label for="checkboxsexual">Sexual</label>
+                        </div>
+                        <div class="col-3">
+                            <input type="checkbox" name="checkboxpsicologico" id="checkboxpsicologico">
+                            <label for="checkboxpscicologico">Psicologico</label>
+                        </div>
+                        <div class="col-3">
+                            <input type="checkbox" name="checkboxnegligencia" id="checkboxnegligencia">
+                            <label for="checkboxnegligencia">Negligencia</label>
+                        </div>
+                    </div>
+                    <!--BLOQUE III-4.-->
+                    <div class="row mb-1">
+                        <div class="col-12">
+                            <label for="" class="form-label">4. Consumo de sustancias psicoactivas</label><br>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxalcohol" id="checkboxalcohol">
+                                <label for="checkboxalcohol">Alcohol</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxtabaco" id="checkboxtabaco">
+                                <label for="checkboxtabaco">Tabaco</label>
+                            </div>
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxmarihuana" id="checkboxmarihuana">
+                                <label for="checkboxmarihuana">Marihuana</label>
+                            </div>
+                            <div class="col-2">
+                                <input type="checkbox" name="checkboxpbc" id="checkboxpbc"">
+                                <label for=" checkboxpbc">PBC</label>
+                            </div>
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxespecificar" id="checkboxespecificar">
+                                <label for=" checkboxespecificar">Otros</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <label for="consumo" class="form-label">Si selecciono otros, especifique:</label>
+                        <input type="text" class="form-control" id="consumo" placeholder="Especificar">
+                    </div>
+                    <!--Final del contenedor-->
                 </div>
                 <!-- Cuarto Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
-                    <div class="row">
-                        <h6>DATOS DEL ESTABLECIMIENTO</h6>
-                        <div class="col-6">
-                            <label for="datosEstablecimiento" class="form-label">RED/DISA/DIRESA/GERESA</label>
-                            <input type="text" class="form-control" id="datosEstablecimiento" placeholder="---------------">
+                    <h6>IV. CARACTERISTICAS DEL PRIMER EPISODIO PSICOTICO</h6>
+                    <div class="row mb-1">
+                        <div class="col-12">
+                            <label for="" class="form-label">1. Signo y sintomas presentes:</label><br>
                         </div>
-                        <div class="col-6">
-                            <label for="estSalud" class="form-label">Establecimiento de Salud</label>
-                            <input type="text" class="form-control" id="estSalud" placeholder="Escriba el Establecimiento de Salud">
+                        <div class="col-2">
+                            <input type="checkbox" name="checkboxnegativos" id="checkboxnegativos">
+                            <label for="checkboxnegativos">Sintomas Negativos</label><br>
+    
+                        </div>
+                        <div class="col-2">
+                            <input type="checkbox" name="checkboxpositivos" id="checkboxpositivos">
+                            <label for="checkboxpositivos">Sintomas Positivos</label><br>
+                        </div>
+                        <div class="col-4">
+                            <input type="checkbox" name="checkboxconductasuicida" id="checkboxconductasuicida">
+                            <label for="checkboxconductasuicida">Conducta suicida (Ideacion/Intento)</label><br>
+                        </div>
+                        <div class="col-4">
+                            <input type="checkbox" name="checkboxconductaheteroagresiva"
+                                id="checkboxconductaheteroagresiva">
+                            <label for="checkboxconductaheteroagresiv">Conducta Heteroagresiva (Ideacion/Intento)</label>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <label for="nivAtencion" class="form-label">Nivel de atención</label>
-                            <input type="text" class="form-control" id="nivAtencion" placeholder="Escriba el Nivel de atención">
+    
+                    <div class="row mb-1">
+                        <div class="col-12">
+                            <label for="" class="form-label">2. Factores Psicosociales:</label><br>
                         </div>
-                        <div class="col-6">
-                            <label for="fechaAtencion" class="form-label">Fecha de atención</label>
-                            <input type="date" class="form-control" id="fechaAtencion" placeholder="Escriba el Establecimiento de Salud">
+                        <div class="row mb-1">
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxppadres" id="checkboxppadres">
+                                <label for="checkboxppadres">Problemas con los padres</label><br>
+                            </div>
+                            <div class="col-6">
+                                <input type="checkbox" name="checkboxprendimiento" id="checkboxprendimiento">
+                                <label for="checkboxprendimiento">Problemas por el bajo rendimiento en los
+                                    estudios</label><br>
+                            </div>
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxptrabajo" id="checkboxptrabajo">
+                                <label for="checkboxptrabajo">Problemas con el trabajo</label><br>
                         </div>
-                    </div>
-                </div>
+                            </div>
+                        <div class="row mb-1">
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxpeconomicos" id="checkboxpeconomicos">
+                                <label for="checkboxpeconomicos">Problemas Economicos</label><br>
+                            </div>
+                            <div class="col-6">
+                                <input type="checkbox" name="checkboxpseparacionp" id="checkboxpseparacionp">
+                                <label for="checkboxpseparacionp">Problemas por separacion de padres</label><br>
+                            </div>
+                            <div class="col-3">
+                                <input type="checkbox" name="checkboxpsalud" id="checkboxpsalud">
+                                <label for="checkboxpsalud">Problemas con salud fisica</label><br>
+                            </div>
+                        </div>  
+                        <div class="row mb-1">
+                            <div class="col-1">
+                                <input type="checkbox" name="checkboxespecificar" id="checkboxespecificar">
+                                <label for=" checkboxespecificar">Otros</label>
+                            </div>
+                        </div>
+                        </div>    
+                            <div>
+                                <label for="consumo" class="form-label">Si selecciono otros, especifique:</label>
+                                <input type="text" class="form-control" id="consumo" placeholder="Especificar">
+                            </div>
+                        </div>
                 <!-- Quinto Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
                     <h6></h6><h6>V. SEGUIMIENTO</h6>
@@ -446,7 +590,13 @@
                         </div>
                     </div>
                 </div>
-                
+                <!-- Botones -->
+                <div class="rounded p-3 bg-transparent br-3 mb-1">
+                    <div class="row">
+                        <button type="button" class="otroBoton">Guardar</button>
+                        <!-- <button type="button" class="otroBoton1">Cancelar</button> -->
+                    </div>
+                </div>
             </form>
         </div>
     </div>
