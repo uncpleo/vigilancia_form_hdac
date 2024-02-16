@@ -1,0 +1,13 @@
+.content_article{
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content_article_principal{
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content_main{
+    margin-left: 200px;
+}
