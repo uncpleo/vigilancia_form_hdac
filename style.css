@@ -3,11 +3,18 @@
     flex-direction: row;
 }
 
-.content_article_principal{
+/* .content_article_principal{
     justify-content: center;
     flex-direction: row;
+} */
+
+.text_inicial{
+    justify-content: center;
+    /* background-color: brown; */
+    display: flex;
 }
 
 .content_main{
-    margin-left: 200px;
+    justify-content: center;
+    /* background-color: aquamarine; */
 }
