@@ -1,4 +1,12 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .content_article{
+    margin-top: 50px;
     justify-content: center;
     flex-direction: row;
 }
@@ -8,9 +16,15 @@
     flex-direction: row;
 } */
 
-.text_inicial{
+.text_inicial1{
     justify-content: center;
-    /* background-color: brown; */
+    font-size: 15px;
+    display: flex;
+}
+
+.text_inicial2{
+    justify-content: center;
+    font-size: 18px;
     display: flex;
 }
 
