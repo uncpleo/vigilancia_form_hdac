@@ -9,6 +9,15 @@
 .container{
     border-color: black;
     background-color: rgb(255, 255, 255);
+    width:80%;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
+.casita{
+    background-color: aqua;
+    color: blue;
 }
 
 .col-6{
@@ -106,3 +115,4 @@
     border-radius: 10px 10px 10px 10px;
     border-color: rgb(240, 66, 54);
 }
+
