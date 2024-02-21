@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,19 @@
     <meta name="author" content="HTML Masters">
     <title>Documento de ejemplo</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous">
 </head>
+
 <body>
     <div class="content_main">
         <div class="content_article">
             <article class="content_article_principal">
                 <div class="container p-2 bg-secondary bg-gradient">
                     <h5 class="text_inicial1">DIRECTIVA SANITARIA N° 071 - MINSA/CDC V.01</h5>
-                    <h5 class="text_inicial1">DIRECTIVA SANITARIA PARA LA VIGILANCIA DE PROBLEMAS DE LA SALUD MENTAL PRIORIZADOS EN</h5>
+                    <h5 class="text_inicial1">DIRECTIVA SANITARIA PARA LA VIGILANCIA DE PROBLEMAS DE LA SALUD MENTAL
+                        PRIORIZADOS EN</h5>
                     <h5 class="text_inicial1">ESTABLECIMIENTO DE SALUD CENTINELA Y MEDIANTE ENCUESTA POBLACIONAL</h5>
                 </div>
                 <div class="border container p-2 bg-primary bg-gradient">
@@ -23,7 +28,7 @@
                     <h5 class="text_inicial2">VIGILANCIA CENTINELA DEL PRIMER EPISODIO PSICÓTICO</h5>
                     <h5 class="text_inicial2">FICHA DE REGISTRO</h5>
                 </div>
-            </article>    
+            </article>
         </div>
     </div>
     <div class="container">
@@ -31,108 +36,132 @@
             <form action="" class="row">
                 <!-- Contenedor Cero -->
                 <!-- <div class="border broder-dark p-2"> -->
-                    <div class="border rounded p-3 bg-light br-3 mb-1">
-                        <div class="row">
-                            <div class="col-6">
-                                <label for="codigoInput" class="form-label">Código Unico de Ficha</label>
-                                <input type="text" class="form-control" id="codigoInput" placeholder="Escriba el Código">
-                            </div>
-                            <div class="col-6">
-                                <label for="FechaNotInput" class="form-label">Fecha de notificación</label>
-                                <input type="date" class="form-control" id="FechaNotInput" placeholder="">
+                <div class="border rounded p-3 bg-light br-3 mb-1">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-6 col-12">
+                                    <label for="codigoInput" class="form-label">Código Unico de Ficha</label>
+                                    <input type="text" class="form-control" id="codigoInput"
+                                        placeholder="Escriba el Código">
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <label for="FechaNotInput" class="form-label">Fecha de notificación</label>
+                                    <input type="date" class="form-control" id="FechaNotInput" placeholder="">
+                                </div>
                             </div>
                         </div>
+                    </div>
                     <!-- </div> -->
                 </div>
                 <!-- Primer Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
                     <div class="row">
                         <h6>I. DATOS DEL ESTABLECIMIENTO</h6>
-                        <div class="col-6">
-                            <label for="datosEstablecimiento" class="form-label">RED/DISA/DIRESA/GERESA</label>
-                            <input type="text" class="form-control" id="datosEstablecimiento" placeholder="---------------">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-md-6 col-12">
+                                        <label for="datosEstablecimiento" class="form-label">RED / DISA / DIRESA /
+                                            GERESA</label>
+                                        <input type="text" class="form-control" id="datosEstablecimiento"
+                                            placeholder="---------------">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <label for="estSalud" class="form-label">Establecimiento de Salud</label>
+                                    <input type="text" class="form-control" id="estSalud"
+                                        placeholder="Escriba el Establecimiento de Salud">
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-6">
-                            <label for="estSalud" class="form-label">Establecimiento de Salud</label>
-                            <input type="text" class="form-control" id="estSalud" placeholder="Escriba el Establecimiento de Salud">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <label for="nivAtencion" class="form-label">Nivel de atención</label>
-                            <input type="text" class="form-control" id="nivAtencion" placeholder="Escriba el Nivel de atención">
-                        </div>
-                        <div class="col-6">
-                            <label for="fechaAtencion" class="form-label">Fecha de atención</label>
-                            <input type="date" class="form-control" id="fechaAtencion" placeholder="Escriba el Establecimiento de Salud">
+                        <div class="row">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-6 col-12">
+                                    <label for="nivAtencion" class="form-label">Nivel de atención</label>
+                                    <input type="text" class="form-control" id="nivAtencion"
+                                        placeholder="Escriba el Nivel de atención">
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <label for="fechaAtencion" class="form-label">Fecha de atención</label>
+                                    <input type="date" class="form-control" id="fechaAtencion"
+                                        placeholder="Escriba el Establecimiento de Salud">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <!-- Segundo Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
-                    <h6></h6><h6>II. DATOS DEL USUARIO</h6>
+                    <h6>II. DATOS DEL USUARIO</h6>
                     <div class="row mb-1">
-                        <div class="col-3">
+                        <div class="col-md-4 col-lg-4 col-xl-4 p-1">
                             <label for="apPaterno" class="form-label">1. Apellido Paterno</label>
-                            <input type="text" class="form-control" id="apPaterno" placeholder="Escriba su Apellido Paterno">
+                            <input type="text" class="form-control" id="apPaterno"
+                                placeholder="Escriba su Apellido Paterno">
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-4 col-lg-4 col-xl-4 p-1">
                             <label for="apMaterno" class="form-label">Apellido Materno</label>
-                            <input type="text" class="form-control" id="apMaterno" placeholder="Escriba su Apellido Materno">
+                            <input type="text" class="form-control" id="apMaterno"
+                                placeholder="Escriba su Apellido Materno">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-4 col-lg-4 col-xl-4 p-1">
                             <label for="nombres" class="form-label">Nombres</label>
                             <input type="text" class="form-control" id="nombres" placeholder="Escriba sus Nombres">
                         </div>
                     </div>
                     <div class="row mb-1">
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 p-1">
                             <label for="hClinica" class="form-label">2. Historia Clínica Nº</label>
-                            <input type="number" class="form-control" id="hClinica" placeholder="Escriba el nùmero de H.">
+                            <input type="number" class="form-control" id="hClinica"
+                                placeholder="Escriba el número de H.">
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 p-1">
                             <label for="fechaNacimiento" class="form-label">3. Fecha de Nacimiento</label>
                             <input type="date" class="form-control" id="fechaNacimiento">
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 p-1">
                             <label for="telefono" class="form-label">4. Teléfono</label>
-                            <input type="number" class="form-control" id="telefono" placeholder="Escriba el número de telefono">
+                            <input type="number" class="form-control" id="telefono"
+                                placeholder="Escriba el número de teléfono">
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3 p-1">
                             <label for="telefonoApode" class="form-label">5. Teléfono(Apoderado)</label>
-                            <input type="number" class="form-control" id="telefonoApode" placeholder="Escriba el número de telefono">
+                            <input type="number" class="form-control" id="telefonoApode"
+                                placeholder="Escriba el número de teléfono">
                         </div>
                     </div>
                     <div class="row mb-1">
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
                             <label for="dni" class="form-label">6. DNI</label>
                             <input type="number" class="form-control" id="dni" placeholder="Escriba el número de DNI">
                         </div>
-                        <div class="col-9">
+                        <div class="col-md-9 col-lg-9 col-xl-9">
                             <label for="direccionAct" class="form-label">7. Dirección actual</label>
-                            <input type="text" class="form-control" id="direccionAct" placeholder="Escriba su Dirección">
+                            <input type="text" class="form-control" id="direccionAct"
+                                placeholder="Escriba su Dirección">
                         </div>
                     </div>
                     <div class="row mb-1">
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-xl-4">
                             <label for="departamento" class="form-label">8. Departamento</label>
                             <input type="text" class="form-control" id="departamento" placeholder="">
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-xl-4">
                             <label for="provincia" class="form-label">9. Provincia</label>
                             <input type="text" class="form-control" id="provincia" placeholder="">
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-lg-4 col-xl-4">
                             <label for="distrito" class="form-label">10. Distrito</label>
                             <input type="text" class="form-control" id="distrito" placeholder="">
                         </div>
                     </div>
                     <div class="row mb-1">
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
                             <label for="edad" class="form-label">11. Edad</label>
                             <input type="number" class="form-control" id="edad" placeholder="Escriba su Edad">
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
                             <label for="" class="form-label">12. Sexo:</label>
                             <div class="form-label">
                                 <div class="row">
@@ -147,12 +176,14 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
                             <label for="" class="form-label">13. Seguro Social:</label>
                             <div class="form-label">
                                 <div class="row">
                                     <div class="col-4">
-                                        <input type="radio" value="0" name="opcionSeg" id="segSi">
+                                        <input type="radio" value="
+                
+                0" name="opcionSeg" id="segSi">
                                         <label for="segSi" class="form-label_1">Si</label>
                                     </div>
                                     <div class="col-4">
@@ -162,192 +193,220 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-md-3 col-lg-3 col-xl-3">
                             <label for="tipSeguro" class="form-label">14. Tipo de Seguro</label>
-                            <input type="text" class="form-control" id="tipSeguro" placeholder="Escriba el Tipo de Seguro">
+                            <input type="text" class="form-control" id="tipSeguro"
+                                placeholder="Escriba el Tipo de Seguro">
                         </div>
                     </div>
                     <div class="column mb-2 mt-2">
-                        <label for="" class="form-label">15. ¿Recibe apoyo de alguna de las siguientes personas?</label>
+                        <label for="" class="form-label">15. ¿Recibe apoyo de alguna de las siguientes
+                            personas?</label>
                         <div class="row mb-1">
-                            <div class="col-2">
-                                <input type="radio" value="0" name="opcionApoyo" id="apoPadres">
-                                <label for="apoPadres" class="form-label_1">Padres</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="1" name="opcionApoyo" id="apoHermanos">
-                                <label for="apoHermanos" class="form-label_1">Hermanos</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="2" name="opcionApoyo" id="apoPareja">
-                                <label for="apoPareja" class="form-label_1">Pareja</label>
-                            </div>
-                            <div class="col-3">
-                                <input type="radio" value="3" name="opcionApoyo" id="apoAbandono">
-                                <label for="apoAbandono" class="form-label_1">Abandono Social</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="4" name="opcionApoyo" id="apoOtros">
-                                <label for="apoOtros" class="form-label_1">Otros</label>
-                            </div>
-                        </div>
-                        <div class="form-label">
-                            <div class="col-9">
-                                <label for="apoOtrosEs" class="form-label">Si selecciono otros, especifique: </label>
-                                <input type="text" class="form-control" id="apoOtrosEs" placeholder="Especifique">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row mb-1">
-                        <label for="" class="form-label">16. Grado de Instrucción</label>
-                        <div class="row">
-                            <div class="col-2">
-                                <input type="radio" value="0" name="gradoInstruc" id="gradoSin">
-                                <label for="gradoSin" class="form-label_1">Sin Instrucción</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="1" name="gradoInstruc" id="gradoPrimaria">
-                                <label for="gradoPrimaria" class="form-label_1">Primaria</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="2" name="gradoInstruc" id="gradoSecundaria">
-                                <label for="gradoSecundaria" class="form-label_1">Secundaria</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="3" name="gradoInstruc" id="gradoTecnico">
-                                <label for="gradoTecnico" class="form-label_1">Técnico</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="radio" value="4" name="gradoInstruc" id="gradoUnivesitario">
-                                <label for="gradoUnivesitario" class="form-label_1">Universitario</label>
+                            <div class="d-flex flex-md-row flex-wrap flex-sm-colum flex-none-column">
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="0" name="opcionApoyo" id="apoPadres">
+                                    <label for="apoPadres" class="form-label_1">Padres</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="1" name="opcionApoyo" id="apoHermanos">
+                                    <label for="apoHermanos" class="form-label_1">Hermanos</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="2" name="opcionApoyo" id="apoPareja">
+                                    <label for="apoPareja" class="form-label_1">Pareja</label>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <input type="radio" value="3" name="opcionApoyo" id="apoAbandono">
+                                    <label for="apoAbandono" class="form-label_1">Abandono Social</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="4" name="opcionApoyo" id="apoOtros">
+                                    <label for="apoOtros" class="form-label_1">Otros</label>
+                                </div>
+                                <div class="form-label">
+                                    <div class="col-md-12 col-12">
+                                        <label for="apoOtrosEs" class="form-label">Si selecciono otros,
+                                            especifique:
+                                        </label>
+                                        <input type="text" class="form-control" id="apoOtrosEs"
+                                            placeholder="Especifique">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="block_II">
-                        <label for="ocupacion" class="form-label">17. Ocupación</label>
-                        <input type="text" class="form-control" id="ocupacion" placeholder="Escriba su ocupación">
+                        <div class="row mb-1">
+                            <label for="" class="form-label">16. Grado de Instrucción</label>
+                            <div class="row">
+                                <div class="d-flex flex-md-row flex-wrap flex-sm-colum flex-none-column">
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="0" name="gradoInstruc" id="gradoSin">
+                                        <label for="gradoSin" class="form-label_1">Sin Instrucción</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="1" name="gradoInstruc" id="gradoPrimaria">
+                                        <label for="gradoPrimaria" class="form-label_1">Primaria</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="2" name="gradoInstruc" id="gradoSecundaria">
+                                        <label for="gradoSecundaria" class="form-label_1">Secundaria</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="3" name="gradoInstruc" id="gradoTecnico">
+                                        <label for="gradoTecnico" class="form-label_1">Técnico</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="4" name="gradoInstruc" id="gradoUnivesitario">
+                                        <label for="gradoUnivesitario" class="form-label_1">Universitario</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block_II">
+                                <label for="ocupacion" class="form-label">17. Ocupación</label>
+                                <input type="text" class="form-control" id="ocupacion"
+                                    placeholder="Escriba su ocupación">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- Tercer Contenedor -->
+                <!--Desde aqui va el bloque III-1.-->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
                     <h6>III. ANTECEDENTES</h6>
-                    <div class="row sm-1">
-                        <div class="col-4">
-                            <label for="" class="form-label">1. Problemas Périnatales</label>
+                    <div class="row">
+                        <div class="col-12">
+                            <label for="" class="form-label">1. Problemas Périnatales</label><br>
                         </div>
-                        <div class="row sm-1">
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxbajo" id="checkboxbajo">
-                                <label for="checkboxbajo">Bajo de Peso al nacer</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxasfixia" id="checkboxasfixia">
-                                <label for="checkboxasfixia">Asfixia severa</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxprematuridad" id="checkboxprematuridad">
-                                <label for="checkboxprematuridad">Prematuridad</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxinfeccion" id="checkboxinfeccion">
-                                <label for="checkboxinfeccion">Infeccion</label>
-                            </div>
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxcaida" id="checkboxcaida">
-                                <label for="checkboxcaida">Caída brusca</label>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxbajo" id="checkboxbajo">
+                                        <label for="checkboxbajo">Bajo de Peso al nacer</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxasfixia" id="checkboxasfixia">
+                                        <label for="checkboxasfixia">Asfixia severa</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxprematuridad" id="checkboxprematuridad">
+                                        <label for="checkboxprematuridad">Prematuridad</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxinfeccion" id="checkboxinfeccion">
+                                        <label for="checkboxinfeccion">Infección</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxcaida" id="checkboxcaida">
+                                        <label for="checkboxcaida">Caída brusca</label>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!--Desde aqui va el bloque III-2.
-                    <div class="row mb-1">-->
-    
+
+
+                    <!--Desde aqui va el bloque III-2.-->
                     <div class="col-12">
-                        <label for="" class="form-label">2. Antecedente familiar con trastornos psiquiatrícos o problemas
-                            psicosociales</label><br>
+                        <label for="" class="form-label">2. Antecedente familiar con trastornos psiquiátricos o
+                            problemas psicosociales</label><br>
                     </div>
-    
-                    <div class="row mb-1">
-                        <div class="col-2">
-                            <input type="radio" name="decision" id="si">
-                            <label for="si">Si</label>
-                        </div>
-                        <div class="col-2">
-                            <input type="radio" name="decision" id="no">
-                            <label for="no">No</label>
-                        </div>
-                        <div class="col-8">
-                            <div class="row mb-1">
-                                <div class="col-2">
-                                    <label for="antecedente" class="form-label">Especifique:</label>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <input type="radio" name="decision" id="si">
+                                    <label for="si">Si</label>
                                 </div>
-                                <div class="col-6">
-                                    <input type="text" class="form-control" id="antecedente"
-                                        placeholder="Escriba su antecedente">
+                                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                                    <input type="radio" name="decision" id="no">
+                                    <label for="no">No</label>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6 mx-auto mt-3">
+                                    <div class="row mb-1">
+                                        <div class="col-4">
+                                            <label for="antecedente" class="form-label">Especifique:</label>
+                                        </div>
+                                        <div class="col-md-8 col-12">
+                                            <input type="text" class="form-control" id="antecedente"
+                                                placeholder="Escriba su antecedente">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <!--Desde aqui va el bloque III-3.-->
                     <div class="row mb-1">
                         <div class="col-12">
                             <label for="" class="form-label">3. Tipo de violencia</label><br>
                         </div>
-                        <div class="row mb-1"></div>
-                        <div class="col-2">
-                            <input type="checkbox" name="checkboxninguna" id="checkboxninguna">
-                            <label for="checkboxninguna">Ninguna</label>
-                        </div>
-                        <div class="col-2">
-                            <input type="checkbox" name="checkboxfisico" id="checkboxfisico">
-                            <label for="checkboxfisico">Fisico</label>
-                        </div>
-                        <div class="col-2">
-                            <input type="checkbox" name="checkboxsexual" id="checkboxsexual">
-                            <label for="checkboxsexual">Sexual</label>
-                        </div>
-                        <div class="col-3">
-                            <input type="checkbox" name="checkboxpsicologico" id="checkboxpsicologico">
-                            <label for="checkboxpscicologico">Psicologico</label>
-                        </div>
-                        <div class="col-3">
-                            <input type="checkbox" name="checkboxnegligencia" id="checkboxnegligencia">
-                            <label for="checkboxnegligencia">Negligencia</label>
+                        <div class="row mb-1">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxninguna" id="checkboxninguna">
+                                        <label for="checkboxninguna">Ninguna</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxfisico" id="checkboxfisico">
+                                        <label for="checkboxfisico">Fisico</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxsexual" id="checkboxsexual">
+                                        <label for="checkboxsexual">Sexual</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxpsicologico" id="checkboxpsicologico">
+                                        <label for="checkboxpsicologico">Psicologico</label>
+                                    </div>
+                                    <div class="col-md-2 col-12">
+                                        <input type="checkbox" name="checkboxnegligencia" id="checkboxnegligencia">
+                                        <label for="checkboxnegligencia">Negligencia</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
                     <!--BLOQUE III-4.-->
                     <div class="row mb-1">
                         <div class="col-12">
                             <label for="" class="form-label">4. Consumo de sustancias psicoactivas</label><br>
                         </div>
                         <div class="row mb-1">
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxalcohol" id="checkboxalcohol">
-                                <label for="checkboxalcohol">Alcohol</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxtabaco" id="checkboxtabaco">
-                                <label for="checkboxtabaco">Tabaco</label>
-                            </div>
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxmarihuana" id="checkboxmarihuana">
-                                <label for="checkboxmarihuana">Marihuana</label>
-                            </div>
-                            <div class="col-2">
-                                <input type="checkbox" name="checkboxpbc" id="checkboxpbc"">
-                                <label for=" checkboxpbc">PBC</label>
-                            </div>
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxespecificar" id="checkboxespecificar">
-                                <label for=" checkboxespecificar">Otros</label>
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-2 col-12">
+                                    <input type="checkbox" name="checkboxalcohol" id="checkboxalcohol">
+                                    <label for="checkboxalcohol">Alcohol</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="checkbox" name="checkboxtabaco" id="checkboxtabaco">
+                                    <label for="checkboxtabaco">Tabaco</label>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <input type="checkbox" name="checkboxmarihuana" id="checkboxmarihuana">
+                                    <label for="checkboxmarihuana">Marihuana</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="checkbox" name="checkboxpbc" id="checkboxpbc"">
+                                            <label for=" checkboxpbc">PBC</label>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <input type="checkbox" name="checkboxespecificar" id="checkboxespecificar">
+                                    <label for=" checkboxespecificar">Otros</label>
+                                </div>
+
                             </div>
                         </div>
+                        <div>
+                            <label for="consumo" class="form-label">Si selecciono otros, especifique:</label>
+                            <input type="text" class="form-control" id="consumo" placeholder="Especificar">
+                        </div>
                     </div>
-                    <div>
-                        <label for="consumo" class="form-label">Si selecciono otros, especifique:</label>
-                        <input type="text" class="form-control" id="consumo" placeholder="Especificar">
-                    </div>
-                    <!--Final del contenedor-->
                 </div>
+                <!--Final del contenedor-->
                 <!-- Cuarto Contenedor -->
                 <div class="border rounded p-3 bg-light br-3 mb-1">
                     <h6>IV. CARACTERISTICAS DEL PRIMER EPISODIO PSICOTICO</h6>
@@ -355,99 +414,138 @@
                         <div class="col-12">
                             <label for="" class="form-label">1. Signo y sintomas presentes:</label><br>
                         </div>
-                        <div class="col-2">
-                            <input type="checkbox" name="checkboxnegativos" id="checkboxnegativos">
-                            <label for="checkboxnegativos">Sintomas Negativos</label><br>
-    
-                        </div>
-                        <div class="col-2">
-                            <input type="checkbox" name="checkboxpositivos" id="checkboxpositivos">
-                            <label for="checkboxpositivos">Sintomas Positivos</label><br>
-                        </div>
-                        <div class="col-4">
-                            <input type="checkbox" name="checkboxconductasuicida" id="checkboxconductasuicida">
-                            <label for="checkboxconductasuicida">Conducta suicida (Ideacion/Intento)</label><br>
-                        </div>
-                        <div class="col-4">
-                            <input type="checkbox" name="checkboxconductaheteroagresiva"
-                                id="checkboxconductaheteroagresiva">
-                            <label for="checkboxconductaheteroagresiv">Conducta Heteroagresiva (Ideacion/Intento)</label>
+                        <div class="row mb-1">
+                            <div class="col-12">
+                                <div class=" ms-auto d-flex flex-wrap">
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxnegativos" id="checkboxnegativos">
+                                        <label for="checkboxnegativos">Sintomas Negativos</label><br>
+
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxpositivos" id="checkboxpositivos">
+                                        <label for="checkboxpositivos">Sintomas Positivos</label><br>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxconductasuicida"
+                                            id="checkboxconductasuicida">
+                                        <label for="checkboxconductasuicida">Conducta suicida
+                                            (Ideacion/Intento)</label><br>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxconductaheteroagresiva"
+                                            id="checkboxconductaheteroagresiva">
+                                        <label for="checkboxconductaheteroagresiv">Conducta Heteroagresiva
+                                            (Ideacion/Intento)</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-    
+
+
                     <div class="row mb-1">
                         <div class="col-12">
                             <label for="" class="form-label">2. Factores Psicosociales:</label><br>
                         </div>
-                        <div class="row mb-1">
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxppadres" id="checkboxppadres">
-                                <label for="checkboxppadres">Problemas con los padres</label><br>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class=" ms-auto d-flex flex-wrap">
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxppadres" id="checkboxppadres">
+                                        <label for="checkboxppadres">Problemas con los padres</label><br>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <input type="checkbox" name="checkboxprendimiento" id="checkboxprendimiento">
+                                        <label for="checkboxprendimiento">Problemas por el bajo rendimiento en
+                                            los
+                                            estudios</label><br>
+                                    </div>
+                                    <div class="col-md-3 col-12">
+                                        <input type="checkbox" name="checkboxptrabajo" id="checkboxptrabajo">
+                                        <label for="checkboxptrabajo">Problemas con el trabajo</label><br>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="col-6">
-                                <input type="checkbox" name="checkboxprendimiento" id="checkboxprendimiento">
-                                <label for="checkboxprendimiento">Problemas por el bajo rendimiento en los
-                                    estudios</label><br>
-                            </div>
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxptrabajo" id="checkboxptrabajo">
-                                <label for="checkboxptrabajo">Problemas con el trabajo</label><br>
                         </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-3 col-12">
+                                    <input type="checkbox" name="checkboxpeconomicos" id="checkboxpeconomicos">
+                                    <label for="checkboxpeconomicos">Problemas Economicos</label><br>
+                                </div>
+                                <div class="col-md-6 col-12">
+                                    <input type="checkbox" name="checkboxpseparacionp" id="checkboxpseparacionp">
+                                    <label for="checkboxpseparacionp">Problemas por separacion de
+                                        padres</label><br>
+                                </div>
+                                <div class="col-md-3 col-12">
+                                    <input type="checkbox" name="checkboxpsalud" id="checkboxpsalud">
+                                    <label for="checkboxpsalud">Problemas con salud fisica</label><br>
+                                </div>
                             </div>
-                        <div class="row mb-1">
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxpeconomicos" id="checkboxpeconomicos">
-                                <label for="checkboxpeconomicos">Problemas Economicos</label><br>
-                            </div>
-                            <div class="col-6">
-                                <input type="checkbox" name="checkboxpseparacionp" id="checkboxpseparacionp">
-                                <label for="checkboxpseparacionp">Problemas por separacion de padres</label><br>
-                            </div>
-                            <div class="col-3">
-                                <input type="checkbox" name="checkboxpsalud" id="checkboxpsalud">
-                                <label for="checkboxpsalud">Problemas con salud fisica</label><br>
-                            </div>
-                        </div>  
-                        <div class="row mb-1">
-                            <div class="col-1">
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="d-flex flex-wrap">
+                            <div class="col-md-3 col-12">
                                 <input type="checkbox" name="checkboxespecificar" id="checkboxespecificar">
                                 <label for=" checkboxespecificar">Otros</label>
                             </div>
                         </div>
-                        </div>    
-                            <div>
-                                <label for="consumo" class="form-label">Si selecciono otros, especifique:</label>
+                    </div>
+
+                    <div class="row ">
+                        <div class="d-flex flex-wrap">
+                            <div class="col-md-3 col-12">
+                                <label for="consumo" class="form-label">Si selecciono otros,
+                                    especifique:</label>
                                 <input type="text" class="form-control" id="consumo" placeholder="Especificar">
                             </div>
                         </div>
-                <!-- Quinto Contenedor -->
-                <div class="border rounded p-3 bg-light br-3 mb-1">
-                    <h6></h6><h6>V. SEGUIMIENTO</h6>
-                    <div class="column mb-3">
-                        <label for="diagSaludMental" class="form-label">1. Diagnóstico de salud mental - Comorbilidad</label>
-                        <div class="row mb-1">
-                            <div class="col-2">
+                    </div>
+                </div>
+        </div>
+        <!-- Quinto Contenedor -->
+        <div class="border rounded p-3 bg-light br-3 mb-1">
+            <h6></h6>
+            <h6>V. SEGUIMIENTO</h6>
+            <div class="column mb-3">
+                <label for="diagSaludMental" class="form-label">1. Diagnóstico de salud mental -
+                    Comorbilidad</label>
+                <div class="row mb-1">
+                    <div class="col-12">
+                        <div class=" ms-auto d-flex flex-wrap">
+                            <div class="col-md-2 col-12">
                                 <input type="radio" value="0" name="diagSaludMental" id="esquizo">
                                 <label for="esquizo" class="form-label_1">Esquizofrenia</label>
                             </div>
-                            <div class="col-2">
+                            <div class="col-md-2 col-12">
                                 <input type="radio" value="1" name="diagSaludMental" id="epDepresivo">
                                 <label for="epDepresivo" class="form-label_1">Episodio Depresivo</label>
                             </div>
-                            <div class="col-3">
+                            <div class="col-md-3 col-12">
                                 <input type="radio" value="2" name="diagSaludMental" id="transPersonalidad">
-                                <label for="transPersonalidad" class="form-label_1">Transtorno de personalidad</label></div>
-                            <div class="col-2">
+                                <label for="transPersonalidad" class="form-label_1">Transtorno de
+                                    personalidad</label>
+                            </div>
+                            <div class="col-md-2 col-12">
                                 <input type="radio" value="3" name="diagSaludMental" id="abSustancias">
-                                <label for="abSustancias" class="form-label_1">Abuso de sustancias</label></div>
-                            <div class="col-2">
+                                <label for="abSustancias" class="form-label_1">Abuso de sustancias</label>
+                            </div>
+                            <div class="col-md-2 col-12">
                                 <input type="radio" value="4" name="diagSaludMental" id="diagOtro">
-                                <label for="diagOtro" class="form-label_1">Otros</label></div>  
+                                <label for="diagOtro" class="form-label_1">Otros</label>
+                            </div>
                         </div>
                         <div class="form-label">
-                            <div class="col-9 mb-1">
-                                <label for="diagOtroEs" class="form-label">Si selecciono otros, especifique: </label>
-                                <input type="text" class="form-control" id="diagOtroEs" placeholder="Especifique"></div>
+                            <div class="col-md-9 col-12">
+                                <label for="diagOtroEs" class="form-label">Si selecciono otros, especifique:
+                                </label>
+                                <input type="text" class="form-control" id="diagOtroEs" placeholder="Especifique">
+                            </div>
                         </div>
                     </div>
                     <label for="" class="form-label">2. Disposición terapéutica</label>
@@ -455,17 +553,22 @@
                         <div class="col-6">
                             <div class="column">
                                 <div class="col-12">
-                                    <label for="" class="form-label">2.1. ¿Cumplio con el tratamiento indicado?</label>
+                                    <label for="" class="form-label">2.1. ¿Cumplio con el tratamiento
+                                        indicado?</label>
                                 </div>
                                 <div class="col-7">
                                     <div class="row">
-                                        <div class="col-6">
-                                            <input type="radio" value="0" name="opTratamiento" id="trataSi">
-                                            <label for="trataSi" class="form-label_1">Si</label>
-                                        </div>
-                                        <div class="col-6">
-                                            <input type="radio" value="1" name="opTratamiento" id="trataNo">
-                                            <label for="trataNo" class="form-label_1">No</label>
+                                        <div class="col-12">
+                                            <div class="d-flex flex-wrap">
+                                                <div class="col-md-6 col-12">
+                                                    <input type="radio" value="0" name="opTratamiento" id="trataSi">
+                                                    <label for="trataSi" class="form-label_1">Si</label>
+                                                </div>
+                                                <div class="col-md-6 col-12">
+                                                    <input type="radio" value="1" name="opTratamiento" id="trataNo">
+                                                    <label for="trataNo" class="form-label_1">No</label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -478,130 +581,213 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="row">
-                                        <div class="col-4">
-                                            <input type="radio" value="0" name="trataFarma" id="trataRegular">
-                                            <label for="trataRegular" class="form-label_1">Regular</label>
+                                        <div class="d-flex flex-wrap">
+                                            <div class="col-md-4 col-12">
+                                                <input type="radio" value="0" name="trataFarma" id="trataRegular">
+                                                <label for="trataRegular" class="form-label_1">Regular</label>
+                                            </div>
+                                            <div class="col-md-4 col-12">
+                                                <input type="radio" value="1" name="trataFarma" id="trataIrregular">
+                                                <label for="trataIrregular" class="form-label_1">Irregular</label>
+                                            </div>
+                                            <div class="col-md-4 col-12">
+                                                <input type="radio" value="2" name="trataFarma" id="trataAbandono">
+                                                <label for="trataAbandono" class="form-label_1">Abandono</label>
+                                            </div>
                                         </div>
-                                        <div class="col-4">
-                                            <input type="radio" value="1" name="trataFarma" id="trataIrregular">
-                                            <label for="trataIrregular" class="form-label_1">Irregular</label></div>
-                                        <div class="col-4">
-                                            <input type="radio" value="2" name="trataFarma" id="trataAbandono">
-                                            <label for="trataAbandono" class="form-label_1">Abandono</label></div>
                                     </div>
                                 </div>
                             </div>
-                        </div> 
-                    </div>
-                    <div class="column mb-1">
-                        <label for="hClinica" class="form-label">2.3. Número de sesiones por tipo de intervención recibida</label>
-                        <div class="row">
-                            <div class="col-4">
-                                <div class="row"></div>
-                                <label for="consulMedica" class="form-label">Consulta médica: </label>
-                                <input type="number" class="form-control" id="consulMedica" placeholder="Escriba el nùmero">
-                            </div>
-                            <div class="col-4">
-                                <label for="interIndi" class="form-label">Intervención Individual: </label>
-                                <input type="number" class="form-control" id="interIndi" placeholder="Escriba el nùmero">
-                            </div>
-                            <div class="col-4">
-                                <label for="interFam" class="form-label">Intervención Familiar: </label>
-                                <input type="number" class="form-control" id="interFam" placeholder="Escriba el nùmero">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">
-                                <label for="psicoIndi" class="form-label">Psicoteapia individual: </label>
-                                <input type="number" class="form-control" id="psicoIndi" placeholder="Escriba el nùmero">
-                            </div>
-                            <div class="col-4">
-                                <label for="consulPsico" class="form-label">Consulta psicológica: </label>
-                                <input type="number" class="form-control" id="consulPsico" placeholder="Escriba el nùmero">
-                            </div>
-                            <div class="col-4">
-                                <label for="visitaFamiliarIn" class="form-label">Visita familiar integral: </label>
-                                <input type="number" class="form-control" id="visitaFamiliarIn" placeholder="Escriba el nùmero">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column mb-3">
-                        <label for="" class="form-label">2.4. Completó el número minimo de sesiones indicadas por personal de salud</label>
-                        <div class="row">
-                            <div class="col-2">
-                                <input type="radio" value="0" name="sesionesMinimas" id="sesMimSi">
-                                <label for="sesMimSi" class="form-label_1">Si</label></div>
-                            <div class="col-2">
-                                <input type="radio" value="1" name="sesionesMinimas" id="sesMinNo">
-                                <label for="sesMinNo" class="form-label_1">No</label></div>
-                        </div>
-                    </div>
-                    <label for="" class="form-label">3. Capacidad de sus funciones diarias</label><br>
-                    <div class="column mb-3">
-                        <div class="row mb-2">
-                            <div class="col-4">
-                                <label for="" class="form-label_2">3.1. Realiza actividades Personales/Familiares: </label></div>
-                            <div class="col-2">
-                                <input type="radio" value="0" name="actividadesParTot_PerFam" id="actPer_FamTotal">
-                                <label for="actPer_FamTotal" class="form-label_1">Totalmente</label></div>
-                            <div class="col-4">
-                                <input type="radio" value="1" name="actividadesParTot_PerFam" id="actPer_FamParcial">
-                                <label for="actPer_FamParcial" class="form-label_1">Parcialmente</label></div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-4">
-                                <label for="" class="form-label_2">3.2. Realiza actividades Laborales: </label></div>
-                            <div class="col-2">
-                                <input type="radio" value="0" name="actividadesParTot_Lab" id="actLab_FamTotal">
-                                <label for="actPLab_FamTotal" class="form-label_1">Totalmente</label></div>
-                            <div class="col-4">
-                                <input type="radio" value="1" name="actividadesParTot_Lab" id="actLab_FamParcial">
-                                <label for="actLab_FamParcial" class="form-label_1">Parcialmente</label></div>
-                        </div>
-                        <div class="row mb-2">
-                            <div class="col-4">
-                                <label for="" class="form-label_2">3.3. Realiza actividades Sociales: </label></div>
-                            <div class="col-2">
-                                <input type="radio" value="0" name="actividadesParTot_Soc" id="actLab_SocTotal">
-                                <label for="actLab_SocTotal" class="form-label_1">Totalmente</label></div>
-                            <div class="col-4">
-                                <input type="radio" value="1" name="actividadesParTot_Soc" id="actLab_SocParcial">
-                                <label for="actLab_SocParcial" class="form-label_1">Parcialmente</label></div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <label for="evolucion_4" class="form-label">4. Evolución</label>
-                        <div class="row">
-                            <div class="col-2">
-                                <input type="radio" value="0" name="evolucion_4" id="favorable">
-                                <label for="favorable" class="form-label_1">Favorable</label></div>
-                            <div class="col-2">
-                                <input type="radio" value="1" name="evolucion_4" id="estacionaria">
-                                <label for="estacionaria" class="form-label_1">Estacionaria</label></div>
-                            <div class="col-2">
-                                <input type="radio" value="2" name="evolucion_4" id="desfavorable">
-                                <label for="desfavorable" class="form-label_1">Desfavorable</label></div>
-                            <div class="col-3">
-                                <input type="radio" value="3" name="evolucion_4" id="abTratamiento">
-                                <label for="abTratamiento" class="form-label_1">Abandono del tratamiento</label></div>
-                            <div class="col-2">
-                                <input type="radio" value="4" name="evolucion_4" id="alta">
-                                <label for="alta" class="form-label_1">Alta</label></div>
                         </div>
                     </div>
                 </div>
-                <!-- Botones -->
-                <div class="rounded p-3 bg-transparent br-3 mb-1">
+                <div class="column mb-1">
+                    <label for="hClinica" class="form-label">2.3. Número de sesiones por tipo de
+                        intervención
+                        recibida</label>
                     <div class="row">
-                        <button type="button" class="otroBoton">Guardar</button>
-                        <!-- <button type="button" class="otroBoton1">Cancelar</button> -->
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-4 col-12">
+                                    <div class="row"></div>
+                                    <label for="consulMedica" class="form-label">Consulta médica: </label>
+                                    <input type="number" class="form-control" id="consulMedica"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <label for="interIndi" class="form-label">Intervención Individual:
+                                    </label>
+                                    <input type="number" class="form-control" id="interIndi"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <label for="interFam" class="form-label">Intervención Familiar: </label>
+                                    <input type="number" class="form-control" id="interFam"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-4 col-12">
+                                    <label for="psicoIndi" class="form-label">Psicoteapia individual:
+                                    </label>
+                                    <input type="number" class="form-control" id="psicoIndi"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <label for="consulPsico" class="form-label">Consulta psicológica:
+                                    </label>
+                                    <input type="number" class="form-control" id="consulPsico"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                                <div class="col-md-4 col-12">
+                                    <label for="visitaFamiliarIn" class="form-label">Visita familiar
+                                        integral:
+                                    </label>
+                                    <input type="number" class="form-control" id="visitaFamiliarIn"
+                                        placeholder="Escriba el nùmero">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </form>
-        </div>
-    </div>
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+                <div class="column mb-3">
+                    <label for="" class="form-label">2.4. Completó el número minimo de sesiones indicadas
+                        por
+                        personal de salud</label>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex flex-wrap">
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="0" name="sesionesMinimas" id="sesMimSi">
+                                    <label for="sesMimSi" class="form-label_1">Si</label>
+                                </div>
+                                <div class="col-md-2 col-12">
+                                    <input type="radio" value="1" name="sesionesMinimas" id="sesMinNo">
+                                    <label for="sesMinNo" class="form-label_1">No</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <label for="" class="form-label">3. Capacidad de sus funciones diarias</label><br>
+                <div class="column mb-3">
+                    <div class="row mb-2">
+                        <div class="col-4">
+                            <label for="" class="form-label_2">3.1. Realiza actividades
+                                Personales/Familiares:
+                            </label>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="0" name="actividadesParTot_PerFam"
+                                            id="actPer_FamTotal">
+                                        <label for="actPer_FamTotal" class="form-label_1">Totalmente</label>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <input type="radio" value="1" name="actividadesParTot_PerFam"
+                                            id="actPer_FamParcial">
+                                        <label for="actPer_FamParcial" class="form-label_1">Parcialmente</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-4">
+                                <label for="" class="form-label_2">3.2. Realiza actividades Laborales:
+                                </label>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex flex-wrap">
+                                        <div class="col-md-2 col-12">
+                                            <input type="radio" value="0" name="actividadesParTot_Lab"
+                                                id="actLab_FamTotal">
+                                            <label for="actPLab_FamTotal" class="form-label_1">Totalmente</label>
+                                        </div>
+                                        <div class="col-md-4 col-12">
+                                            <input type="radio" value="1" name="actividadesParTot_Lab"
+                                                id="actLab_FamParcial">
+                                            <label for="actLab_FamParcial" class="form-label_1">Parcialmente</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-4">
+                                <label for="" class="form-label_2">3.3. Realiza actividades Sociales:
+                                </label>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex flex-wrap">
+                                    <div class="col-md-2 col-12">
+                                        <input type="radio" value="0" name="actividadesParTot_Soc" id="actLab_SocTotal">
+                                        <label for="actLab_SocTotal" class="form-label_1">Totalmente</label>
+                                    </div>
+                                    <div class="col-md-4 col-12">
+                                        <input type="radio" value="1" name="actividadesParTot_Soc"
+                                            id="actLab_SocParcial">
+                                        <label for="actLab_SocParcial" class="form-label_1">Parcialmente</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <label for="evolucion_4" class="form-label">4. Evolución</label>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-flex flex-wrap">
+                                            <div class="col-md-2 col-12">
+                                                <input type="radio" value="0" name="evolucion_4" id="favorable">
+                                                <label for="favorable" class="form-label_1">Favorable</label>
+                                            </div>
+                                            <div class="col-md-2 col-12">
+                                                <input type="radio" value="1" name="evolucion_4" id="estacionaria">
+                                                <label for="estacionaria" class="form-label_1">Estacionaria</label>
+                                            </div>
+                                            <div class="col-md-2 col-12">
+                                                <input type="radio" value="2" name="evolucion_4" id="desfavorable">
+                                                <label for="desfavorable" class="form-label_1">Desfavorable</label>
+                                            </div>
+                                            <div class="col-md-3 col-12">
+                                                <input type="radio" value="3" name="evolucion_4" id="abTratamiento">
+                                                <label for="abTratamiento" class="form-label_1">Abandono del
+                                                    tratamiento</label>
+                                            </div>
+                                            <div class="col-md-2 col-md-12">
+                                                <input type="radio" value="4" name="evolucion_4" id="alta">
+                                                <label for="alta" class="form-label_1">Alta</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Botones -->
+                    <div class="rounded p-3 bg-transparent br-3 mb-1">
+                        <div class="row">
+                            <button type="button" class="otroBoton">Guardar</button>
+                            <!-- <button type="button" class="otroBoton1">Cancelar</button> -->
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            <script src="script.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous">
+                </script>
+            <script src="https://code.jquery.com/jquery-3.7.1.js"
+                integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </body>
+
 </html>
